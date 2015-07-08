@@ -1,0 +1,92 @@
+.nav-pills{
+	border-bottom:1px solid #ddd;
+	padding-bottom:10px;
+}
+
+.nav-pills>li>a{
+	border:1px solid #F4F4F4;
+	margin-bottom:5px;
+	margin-right:3px;
+}
+
+.tab-content {
+	margin-top:15px;
+}
+
+.panel-lhc > .panel-heading{
+	border-top:1px solid #ddd;
+}
+
+.navbar-lhc{
+	border-radius:0;
+	border-width:0 0 1px 0;
+	
+}
+
+#onlineusers .tooltip-inner {
+	text-align:left;
+}
+
+.paginator-lhc{
+	margin-top:0;
+}
+
+.found-total{
+	color:#999999;
+	float:right;
+	line-height: 2.42857143;
+}
+
+.breadcrumb{
+	border:1px solid #009688;
+}
+
+.main-container{
+	background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 10px;
+	min-height:500px;
+}
+
+.tab-content{
+	border: 1px solid #ccc;
+	padding:15px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+	background-color: #009688;
+}
+
+.datepicker.dropdown-menu {
+	-webkit-border-radius:0px !important;
+	-moz-border-radius:0px !important;
+	border-radius:0px !important;
+}
+
+.datepicker td.active.day, .datepicker th.active.day {
+	background:#009688 !important;
+	color:#FFF;
+}
+
+.checkbox-material{
+	margin-right:5px;
+}
+
+.checkbox .checkbox-material::before{
+	top: -5px;
+}
+
+.form-control{
+	border:1px solid #EEEEEE !important;
+	background:none !important;
+	height:35px !important;
+}
+
+.form-control:focus{
+	border:1px solid #EEEEEE !important;
+	background:none !important;
+	padding:6px !important;
+}
+
+label {font-weight: 600;}
