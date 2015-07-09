@@ -14,7 +14,7 @@
             		  <?php include_once(erLhcoreClassDesign::designtpl('pagelayouts/parts/page_head_logo.tpl.php'));?>
             		</div>
 					<div class="col-xs-6">
-						<div class="btn-group pull-right" role="group" aria-label="...">
+						<div class="btn-group pull-right btnclose" role="group" aria-label="...">
                         <?php if (!isset($Result['hide_close_window'])) : ?>
                                               
                             <?php if (isset($Result['chat']) && is_numeric($Result['chat']->id) && isset($Result['er']) && $Result['er'] == true) : ?>
@@ -37,7 +37,7 @@
 		</div>
 	</div>
 
-	<div class="container-fluid">
+<div class="container-fluid">
 <?php include_once(erLhcoreClassDesign::designtpl('pagelayouts/parts/page_footer_user.tpl.php'));?>
 </div>
 

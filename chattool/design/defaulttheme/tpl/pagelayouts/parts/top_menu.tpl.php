@@ -13,25 +13,31 @@
     </div>
           
       <ul class="nav collapse navbar-collapse navbar-nav navbar-right" id="bs-example-navbar-collapse-1">   
-             
-        <?php if ($currentUser->hasAccessTo('lhchat','use')) : ?>
-		
-		<?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/top_menu_chat_actions.tpl.php'));?>
-		
-		<?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/top_menu_online_users.tpl.php'));?>
-			
-		<?php endif;?>
 
 		<?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/top_menu_modules_container.tpl.php.tpl.php'));?>	
-
-        <?php if ($currentUser->hasAccessTo('lhsystem','use')) : ?>
-    	<li class="li-icon"><a href="<?php echo erLhcoreClassDesign::baseurl('system/configuration')?>"><i class="icon-tools"></i></a></li>
-    	<?php endif; ?> 
-    	 
-    	<?php $hideULSetting = true;?>
-		<?php include(erLhcoreClassDesign::designtpl('lhchat/user_settings.tpl.php'));?>
 			
         <?php include_once(erLhcoreClassDesign::designtpl('pagelayouts/parts/user_box.tpl.php'));?>                
       </ul>
     </div>
 </nav>
+
+<div class='nav-list-container'>
+	<div class='nav-list-div'>
+		<ul class="">
+			 <?php if ($currentUser->hasAccessTo('lhchat','use')) : ?>
+			
+			<?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/top_menu_chat_actions.tpl.php'));?>
+			
+			<?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/top_menu_online_users.tpl.php'));?>
+				
+			<?php endif;?>
+			<?php if ($currentUser->hasAccessTo('lhsystem','use')) : ?>
+				<li class="li-icon"><a href="<?php echo erLhcoreClassDesign::baseurl('system/configuration')?>"><i class="icon-tools"></i></a></li>
+			<?php endif; ?> 
+			 
+			<?php $hideULSetting = true;?>
+			<?php include(erLhcoreClassDesign::designtpl('lhchat/user_settings.tpl.php'));?>
+		</ul>
+	</div>
+</div>
+<?php unset($currentUser);unset($UserData);?>
