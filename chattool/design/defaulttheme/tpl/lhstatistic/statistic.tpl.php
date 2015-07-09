@@ -2,7 +2,7 @@
 
 <div role="tabpanel">
 	<!-- Nav tabs -->
-	<ul class="nav nav-tabs" role="tablist">
+	<ul class="nav nav-pills" role="tablist">
 		<li role="presentation" <?php if ($tab == 'active') : ?>class="active"<?php endif;?>><a onclick="redrawAllCharts(500)" href="<?php echo erLhcoreClassDesign::baseurl('statistic/statistic')?>/(tab)/active" ><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','Statistic');?></a></li>
 		<li role="presentation" <?php if ($tab == 'chatsstatistic') : ?>class="active"<?php endif;?>><a onclick="redrawAllCharts(500)" href="<?php echo erLhcoreClassDesign::baseurl('statistic/statistic')?>/(tab)/chatsstatistic" ><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','Chats statistic');?></a></li>
 		<li role="presentation" <?php if ($tab == 'total') : ?>class="active"<?php endif;?>><a href="<?php echo erLhcoreClassDesign::baseurl('statistic/statistic')?>/(tab)/total"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','Total statistic');?></a></li>

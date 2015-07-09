@@ -8,7 +8,7 @@
 
 <?php include_once(erLhcoreClassDesign::designtpl('pagelayouts/parts/top_menu.tpl.php'));?>
 
-<div class="container-fluid">
+<div class="container-fluid main-container">
 
 <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/path.tpl.php'));?>
 

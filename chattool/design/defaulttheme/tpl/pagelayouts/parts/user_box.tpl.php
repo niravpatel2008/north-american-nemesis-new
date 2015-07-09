@@ -8,4 +8,3 @@ $UserData = $currentUser->getUserData(true); ?>
         <li><a href="<?php echo erLhcoreClassDesign::baseurl('user/logout')?>" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Logout');?>"><i class="glyphicon glyphicon-log-out"></i> <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Logout');?></a></li>
     </ul>
 </li>
- <?php unset($currentUser);unset($UserData);?>

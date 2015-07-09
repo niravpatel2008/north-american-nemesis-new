@@ -9,7 +9,7 @@
 
 <div role="tabpanel">
 		<!-- Nav tabs -->
-		<ul class="nav nav-tabs" role="tablist">
+		<ul class="nav nav-pills" role="tablist">
 			<li role="presentation" class="active"><a href="#notifications" aria-controls="notifications" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/listchatconfig','Notifications about new chats');?></a></li>
 			<?php if ($currentUser->hasAccessTo('lhchat','administrateconfig')) : ?>
 			<li role="presentation"><a href="#copyright" aria-controls="copyright" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/listchatconfig','Copyright settings');?></a></li>
@@ -34,7 +34,7 @@
 			    <div class="section-container auto" data-section>
     			    <div role="tabpanel">
                       <!-- Nav tabs -->
-                      <ul class="nav nav-tabs" role="tablist">
+                      <ul class="nav nav-pills" role="tablist">
                         <li role="presentation" class="active"><a href="#applicationame" aria-controls="applicationame" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/listchatconfig','Application name');?></a></li>
                         <li role="presentation"><a href="#sitesettings" aria-controls="sitesettings" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/listchatconfig','Site settings');?></a></li>
                       </ul>                

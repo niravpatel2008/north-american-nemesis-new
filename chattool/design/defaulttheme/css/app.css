@@ -154,7 +154,6 @@ h1 {
 .trigger-button{
 	padding-right:4px !important;
 	padding-left:4px !important;
-	border-bottom-left-radius: 15px;
 }
 
 .user-chatwidget-buttons:hover .trigger-button{
@@ -290,7 +289,7 @@ option.offline-dep{
 }
 
 .icon-user-online{
-	color:#5da423;
+	color:#77ce2f;
 }
 
 .mb5 {
@@ -328,7 +327,6 @@ div.system-response {
 	color:#FFF;
 	margin-right:5px;
 	padding:2px 5px;
-	border-bottom-right-radius: 7px;
 	display:inline-block;
 	margin-top:-1px;
 	font-size:11px;
@@ -474,11 +472,15 @@ div.message-admin+div.message-admin .msg-date,div.message-row.response+div.messa
 }
 
 .widget-options{
-	width:50px !important;
+	min-width:53px !important;
+}
+
+.widget-options li {
+	text-align:center;
 }
 
 .widget-options li a{
-	padding-left:5px;
+	padding:3px !important;
 }
 
 .pos-rel{
@@ -653,20 +655,12 @@ ul.mb0 {
 .operator-info{
 	background-color:#FFF;
 	border:1px solid #D3D3D3;
-	padding:5px;
-	border-bottom:0;
+	padding: 5px 5px 0;
 	position: relative;
 	z-index: 1;
 	font-size: 12px;
-	-webkit-box-shadow: inset 0px 1px 3px rgba(50, 50, 50, 0.2);
-	-moz-box-shadow: inset 0px 1px 3px rgba(50, 50, 50, 0.2);
-	box-shadow: inset 0px 1px 3px rgba(50, 50, 50, 0.2);
-	-webkit-border-top-left-radius: 6px;
-	-webkit-border-top-right-radius: 6px;
-	-moz-border-radius-topleft: 6px;
-	-moz-border-radius-topright: 6px;
-	border-top-left-radius: 6px;
-	border-top-right-radius: 6px;
+	clear:both;
+	margin-bottom: 5px;
 }
 
 .round-profile{
@@ -758,6 +752,7 @@ ul.mb0 {
 .bb-list{
 	margin-left:0;
 	margin-bottom:0;
+	padding-top: 20px;
 }
 
 .bb-list li{
@@ -877,19 +872,20 @@ input[type="file"]{
 /* CSS added by sanjay */
 .navbar-default
 {
-background-color:#337AB7;
+	background-color:#3C8DBC;
 }
 .navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:hover{
 color:#FFFFFF;
 }
 .panel-default>.panel-heading
 {
-background-color:#337AB7;
+	background-color:#3C8DBC;
+	color:#FFFFFF !important;
 }
 .panel-default>.panel-heading>a,.panel-default>.panel-heading>a:focus, .panel-default>.panel-heading>a:hover
 {color:#FFFFFF!important}
 .icon-button,.icon-button:hover{
-    background-color: #009688;
+    background-color: #3C8DBC;
     color: #FFFFFF;
     padding: 0px 1px;
     margin: 3px;
@@ -904,7 +900,7 @@ input[type='text'],input[type='password']{border: 1px solid rgba(0, 150, 136, 0.
 
 .nav-list-container {
 	width: 335px; right: 0px; bottom: 0px; position: fixed; margin: 0px;z-index:1;
-	background-color:#009688;
+	background-color:#3C8DBC;
 }
 
 .nav-list-div { 
@@ -919,4 +915,48 @@ input[type='text'],input[type='password']{border: 1px solid rgba(0, 150, 136, 0.
 	color: #fff;
     display: block;
     padding: 10px;
+}
+
+.breadcrumb {
+	background-color: #fff;
+}
+
+.alert-info {
+	background-color: #f0f0f0;
+	color:#000 !important;
+}
+
+.btn-reset-div{ 
+	margin:0px;
+	box-shadow:none !important;
+}
+
+.btn-reset-div button{
+	margin:0px;
+	border: 1px solid #eeeeee !important;
+	height:35px;
+}
+
+.op-fun {
+	clear: both;
+    margin: 5px 0;
+	display: block;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.op-fun a {
+    display: inline-block;
+    padding: 0 3px;
+    text-align: center;
+}
+
+.btnclose a{
+	font-size:16px !important;
+	padding:0px !important;
+}
+
+.btnclose {
+	box-shadow:none !important;
 }

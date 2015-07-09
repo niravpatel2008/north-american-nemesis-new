@@ -10,7 +10,7 @@
 <div role="tabpanel">
 
 	<!-- Nav tabs -->
-	<ul class="nav nav-tabs" role="tablist">	
+	<ul class="nav nav-pills" role="tablist">	
 	    <?php if ($currentUser->hasAccessTo('lhsystem','changelanguage')) : ?>
 		<li role="presentation" <?php if ($tab == '') : ?> class="active" <?php endif;?>><a href="#yourlanguage" aria-controls="yourlanguage" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('system/languages','Your language');?></a></li>
 		<?php endif;?>

@@ -1,7 +1,7 @@
 <div role="tabpanel">
 
 		<!-- Nav tabs -->
-		<ul class="nav nav-tabs" role="tablist">
+		<ul class="nav nav-pills" role="tablist">
 			<li role="presentation" class="active"><a href="#panel1" aria-controls="panel1" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('questionary/votingwidget','Questionary');?></a></li>
 		</ul>
 
