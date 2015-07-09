@@ -12,7 +12,7 @@
 <div role="tabpanel">
 
 	<!-- Nav tabs -->
-	<ul class="nav nav-tabs" role="tablist">
+	<ul class="nav nav-pills" role="tablist">
 		<li role="presentation" class="active"><a href="#geoconfiguration" aria-controls="geoconfiguration" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/onlineusers','GEO detection configuration');?></a></li>
 		<li role="presentation"><a id="map-activator" href="#mapoptions" aria-controls="mapoptions" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/onlineusers','Map location')?></a></li>
 	</ul>
@@ -31,7 +31,7 @@
 				<div role="tabpanel" class="<?php (!isset($geo_data['geo_detection_enabled']) || $geo_data['geo_detection_enabled'] == 0) ? print ' hide' : '' ?>" id="settings-geo">
 
 					<!-- Nav tabs -->
-					<ul class="nav nav-tabs" role="tablist">
+					<ul class="nav nav-pills" role="tablist">
 						<li role="presentation" class="<?php isset($geo_data['geo_detection_enabled']) && ($geo_data['geo_service_identifier'] == 'freegeoip') ? print 'active' : ''?>"><a href="#freegeoip" aria-controls="freegeoip" role="tab" data-toggle="tab">http://freegeoip.net/static/index.html</a></li>
 						<li role="presentation" class="<?php isset($geo_data['geo_detection_enabled']) && ($geo_data['geo_service_identifier'] == 'mod_geoip2') ? print 'active' : ''?>"><a href="#mod_geoip2" aria-controls="mod_geoip2" role="tab" data-toggle="tab">mod_geoip2</a></li>
 						<li role="presentation" class="<?php isset($geo_data['geo_detection_enabled']) && ($geo_data['geo_service_identifier'] == 'max_mind') ? print 'active' : ''?>"><a href="#maxmind" aria-controls="maxmind" role="tab" data-toggle="tab">MaxMind</a></li>

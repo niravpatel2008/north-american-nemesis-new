@@ -1,7 +1,7 @@
 <div class="pl10 pr10 pt10">
 	<div class="row">
 		<div class="col-xs-9">
-			<div class="btn-group btn-block btn-block-department">
+			<div class="btn-group btn-block btn-block-department btn-reset-div">
 				<button type="button" class="btn btn-default btn-block btn-sm dropdown-toggle btn-department-dropdown" data-toggle="dropdown" aria-expanded="false">
 					{{lhc.<?php echo $optinsPanel['panelid']?>.length == 0 ? "<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','All departments');?>" : lhc.<?php echo $optinsPanel['panelid']?>Names.join(", ")}} <span class="caret"></span>
 				</button>

@@ -13,7 +13,7 @@
 	<div role="tabpanel">
 
 		<!-- Nav tabs -->
-		<ul class="nav nav-tabs" role="tablist">
+		<ul class="nav nav-pills" role="tablist">
 			<li role="presentation" class="active"><a href="#mailsettings" aria-controls="mailsettings" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('front/default','Mail settings');?></a></li>
 			<li role="presentation"><a href="#SMTP" aria-controls="SMTP" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('front/default','SMTP');?></a></li>
 		</ul>

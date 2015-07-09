@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<div class="container-fluid">
+<div class="container-fluid main-container">
 
 <div class="row">
     <div class="col-xs-10">

@@ -5,5 +5,5 @@
 <li class="li-icon"><a href="javascript:void(0)" onclick="javascript:lhinst.chatTabsOpen()"><i class="icon-chat"></i></a></li>		
 <?php endif;?>
 	
-<li><a href="<?php echo erLhcoreClassDesign::baseurl('chat/lists')?>" ><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Chats list');?></a></li>
+<li><a href="<?php echo erLhcoreClassDesign::baseurl('chat/lists')?>" class='icon-list' title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Chats list');?>"></a></li>
 <?php endif;?>

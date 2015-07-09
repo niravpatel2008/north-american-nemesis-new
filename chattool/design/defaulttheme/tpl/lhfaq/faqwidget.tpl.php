@@ -1,6 +1,6 @@
 	<div role="tabpanel">
 		<!-- Nav tabs -->
-		<ul class="nav nav-tabs" role="tablist">
+		<ul class="nav nav-pills" role="tablist">
 			<li role="presentation" class="<?php if(!isset($edittab)) {echo 'active';} ?>"><a href="#panel1" aria-controls="panel1" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('faq/faqwidget','FAQ');?></a></li>
 			<li role="presentation" class="<?php if(isset($edittab)) {echo 'active';} ?>"><a href="#panel2" aria-controls="panel2" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('faq/faqwidget','Ask a question');?></a></li>
 		</ul>
